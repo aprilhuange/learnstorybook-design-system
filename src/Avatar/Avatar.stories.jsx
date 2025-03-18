@@ -5,6 +5,14 @@ export default {
   component: Avatar,
 };
 
+export const Controls = {
+  args: {
+    loading: false,
+    size: 'medium',
+    username: 'Tom Cruise'
+  }
+}
+
 export const Standard = {
   args: {
     size: 'large',
