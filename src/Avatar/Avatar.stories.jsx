@@ -3,6 +3,12 @@ import { Avatar } from './Avatar';
 export default {
   title: 'Design System/Avatar',
   component: Avatar,
+  tags: ['autodocs'],
+  parameters: {
+    docs: {
+      subtitle: 'Displays an image that represnts a user or organization!',
+    },
+  },
 };
 
 export const Controls = {
@@ -21,6 +27,9 @@ export const Standard = {
   },
 };
 
+/**
+ * 4 sizes are supported!
+ */
 export const Sizes = {
   args: {
     username: 'Tom Coleman',
@@ -36,6 +45,9 @@ export const Sizes = {
   ),
 };
 
+/**
+ * Shows the user's initials as fallback when no image is provided!
+ */
 export const Initials = {
   render: (args) => (
     <>
@@ -46,7 +58,9 @@ export const Initials = {
     </>
   ),
 };
-
+/**
+ * Shows a loading indicator!
+ */
 export const Loading = {
   args: {
     loading: true,

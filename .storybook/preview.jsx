@@ -11,6 +11,7 @@ const preview = {
       </>
     ),
   ],
+  tags: ['autodocs'],
   parameters: {
     controls: {
       matchers: {
